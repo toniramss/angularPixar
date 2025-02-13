@@ -1,0 +1,6 @@
+.divWinOrLoseComponent {
+    background-image: url(../../../../public/wl_home2.jpg);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
