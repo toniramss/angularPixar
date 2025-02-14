@@ -1,7 +1,7 @@
-<app-header></app-header>
+<app-header (scrollTo)="scrollToMain($event)"></app-header>
 
 <app-video-component></app-video-component>
 
-<app-main-component></app-main-component>
+<app-main-component #main></app-main-component>
 
 <app-footer></app-footer>

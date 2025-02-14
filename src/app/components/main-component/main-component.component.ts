@@ -15,4 +15,13 @@ import { ComponentToyStoryComponent } from "../component-toy-story/component-toy
 })
 export class MainComponentComponent {
 
+  scrollToSection(sectionId: string) {
+    const element = document.getElementById(sectionId);
+
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  
+  }
+
 }
