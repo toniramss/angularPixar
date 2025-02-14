@@ -9,7 +9,7 @@ import { ComponentToyStoryComponent } from "../component-toy-story/component-toy
 
 @Component({
   selector: 'app-main-component',
-  imports: [VideoComponentComponent, WinOrLoseComponentComponent, SecondComponentComponent, ComponentElioComponent, ComponentDreamProductionsComponent, ComponentHoppersComponent, ComponentToyStoryComponent],
+  imports: [WinOrLoseComponentComponent, SecondComponentComponent, ComponentElioComponent, ComponentDreamProductionsComponent, ComponentHoppersComponent, ComponentToyStoryComponent],
   templateUrl: './main-component.component.html',
   styleUrl: './main-component.component.css'
 })
